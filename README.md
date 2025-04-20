@@ -15,12 +15,6 @@ You can also manually unlike it before the 10 seconds to decrease the like count
 
 ---
 
-## 🚀 Demo
-
-> Add a screenshot here if you want (optional)
-
----
-
 ## 🛠️ Technologies Used
 
 - React JS (with Vite)
