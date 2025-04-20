@@ -1,12 +1,38 @@
-# React + Vite
+# ❤️ Like Button (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple interactive Like Button built using React.  
+Click the heart to like it (turns red), and it will automatically turn white again after 10 seconds — but the like count remains!  
+You can also manually unlike it before the 10 seconds to decrease the like count.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Features
 
-## Expanding the ESLint configuration
+- 🔴 Like button with toggle effect
+- 🕒 Auto-unlike after 10 seconds (no count change)
+- ➖ Manual unlike before 10 seconds decreases the like count
+- 🔁 Smooth user experience with React `useState`, `useRef`, and timers
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Demo
+
+> Add a screenshot here if you want (optional)
+
+---
+
+## 🛠️ Technologies Used
+
+- React JS (with Vite)
+- JavaScript (ES6+)
+- Font Awesome for heart icons
+
+---
+
+## 📦 How to Run Locally
+
+```bash
+git clone https://github.com/your-username/like-button-react.git
+cd like-button-react
+npm install
+npm run dev
